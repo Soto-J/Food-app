@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MP5</string>
+
+    <string-array name="title_meal">
+        <item>Shrimp Quesadilla</item>
+        <item>Poblano Pork</item>
+        <item>Steak &amp; Shrimp Kabobs</item>
+        <item>Vegetable Turkey Soup</item>
+    </string-array>
+
+    <string-array name="image_meal">
+        <item>@drawable/shrimp_quesadilla</item>
+        <item>@drawable/slow_cooker_arizona_poblano_pork</item>
+        <item>@drawable/steak_shrimp_kabobs</item>
+        <item>@drawable/vegetable_turkey_soup</item>
+    </string-array>
+</resources>

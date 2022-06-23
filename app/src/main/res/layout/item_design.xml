@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UseCompoundDrawables"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        tools:text="@tools:sample/cities"
+        android:id="@+id/tv_img_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="8dp"
+        android:text="Temp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/tv_img_title">
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/shrimp_quesadilla"
+            android:adjustViewBounds="true" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
